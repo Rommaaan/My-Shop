@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/index.css">
+</head>
+<body>
+    <header class="header ">
+        <nav class="header__nav">
+            <a class="header__link " href="cart.html">Корзина</a>
+        </nav>
+    </header>
+
+    <div class="catalog "></div>
+        <template id="productTemplate">
+            <div class="product">
+                <img class="product__img" src="" alt="">
+                <h2 class="product__title"></h2>
+                <p class="product__type"></p>
+                <p class="product__description"></p>
+                <P class="product__price"></p>
+                <p class="product__origin"></p>
+                <button class="product__button">Добавить в корзину</button>
+            </div>
+        </template>
+        <!-- <div class="product">
+            <img class="img__apple" src="/images/orange.jpg" alt="">
+            <h2 class="product__title">Апельсин</h2>
+            <p class="product__description">Сладкие и крупные апельсины</p>
+            <P class="product__price">19,5 р/кг</p>
+            <button>Добавить в корзину</button>
+        </div> -->
+    
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>

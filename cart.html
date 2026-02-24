@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/index.css"> 
+</head>
+<body>
+    <header class="header ">
+        <nav class="header__nav">
+            <a class="header__link " href="index.html">Главная страница</a>
+        </nav>
+    </header>
+
+    <div class="cart">
+        <h1 class="cart__title">Корзина</h1> 
+        <div class="cart__list">
+            <!-- <div class="item">
+                <img class="item__img" src="src/images/apple.jpg">
+                <p class="item__name"> Название: <span class="text-bold" id="name">Яблоко</span></p>
+                <p class="item__type">Сорт: <span class="text-bold" id="type">Криппс Пинк</span></p>
+                <p class="item__price">Цена: <span class="text-bold" id="price">15</span></p>
+                <p class="item__quantity">Кол-во: <span class="text-bold" id="quantity">3</span></p>
+            </div>-->
+        </div>
+        <p>Количество товара: <span class="text-bold" id="total">0</span></p>
+        <!-- <button id="btn">+</button> -->
+        <p>Итоговая сумма: <span class="text-bold" id="sum">0</span></p>
+    </div>
+
+    <template id="itemCart">
+        <div class="item">
+            <img class="item__image" src="">
+            <p class="item__name"> Название: <span class="text-bold" id="name"></span></p>
+            <p class="item__type">Сорт: <span class="text-bold" id="type"></span></p>
+            <p class="item__price">Цена: <span class="text-bold" id="price"></span></p>
+            <p class="item__quantity">Кол-во: <span class="text-bold" id="quantity"></span></p>
+        </div>
+    </template>
+    <script src="cart.js" type="module"></script>
+</body>
+</html>

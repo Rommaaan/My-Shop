@@ -1,0 +1,12 @@
+@import url('product.css');
+@import url('header.css');
+@import url('cart.css');
+
+
+
+body {
+    background-color: rgb(201, 201, 201);
+    padding: 0;
+    margin: 0;
+    
+}

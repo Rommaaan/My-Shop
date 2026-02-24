@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #191919;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.header__nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
