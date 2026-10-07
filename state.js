@@ -14,7 +14,7 @@ const getInitialState = () => {
 const state = getInitialState()
 
 export const saveState = () => {
-    localStorage.setItem('carState', JSON.stringify(state))
+    localStorage.setItem('cartState', JSON.stringify(state))
 }
 
 export default state

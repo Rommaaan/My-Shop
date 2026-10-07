@@ -1,12 +1,19 @@
 .cart {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 1200px;
     margin: 0 auto;
+    
 }
 
 .item {
    display: flex;
    align-items: center;
    gap: 30px;
+   background-color: rgb(240, 240, 240);
+   border-radius: 15px;
+   margin: 5px;   
+   
+   
 }
 
 
@@ -14,8 +21,36 @@
     width: 150px;
     border-radius: 15px;
     margin-bottom: 15px;
+    margin: 7px; 
+
 }
 
 .text-bold {
+
     font-weight: 900;
+    
+}
+
+.cart__quantity {
+
+    padding: 10px 0px 0px 7px;
+    margin: 0px 0px 4px 0px;
+}
+
+.cart__sum {
+
+    padding: 0px 0px 0px 7px;
+    margin: 0px;
+}
+
+.cart__button {
+    margin-top: auto;        /* Это прижмёт кнопку к низу */
+    background-color: #007bff;
+    color: white;
+    border-color: rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 150px;
+    
 }

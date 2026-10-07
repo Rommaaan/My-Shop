@@ -1,5 +1,6 @@
 import state, { saveState } from './state.js'
 
+//Массив
 const products = [
     {
         name: 'Яблоко',
@@ -24,6 +25,30 @@ const products = [
         price: 32,
         origin: 'Россия, Краснодарский край',
         image_url: 'src/images/watermelon.jpg',
+    },
+    {
+        name: 'Бананы',
+        type: 'Кавендиш', 
+        description: 'Самые жёлтые и сочные',
+        price: 52,
+        origin: 'Китай, Хайнань',
+        image_url: 'src/images/banana.jpg',
+    },
+    {
+        name: 'Драгон фрукт',
+        type: 'Белая питахайя', 
+        description: 'Сочный, самый вкусный и очень сладкий',
+        price: 115,
+        origin: 'Юго-Восточная Азия, Вьетнам',
+        image_url: 'src/images/dragon_fruit.jpg',
+    },
+    {
+        name: 'Слива',
+        type: 'Богатырская', 
+        description: 'Очень вкусные и с маленькими косточками',
+        price: 67,
+        origin: 'Россия, Калуга',
+        image_url: 'src/images/plum.jpg',
     }
 ];
 
@@ -55,11 +80,12 @@ function createProduct(product) {
     button.addEventListener('click', () => {
         alert(`Товар "${product.name}" добавлен в корзину`)
         state.sum += product.price
+        state.total++
+        state.items.push(product)
         saveState()
     })
 
     catalog.appendChild(clone)
-
 }
 
 products.forEach(product => createProduct(product))

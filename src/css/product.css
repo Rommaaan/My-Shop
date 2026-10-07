@@ -1,8 +1,9 @@
 .catalog {
-    width: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1420px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
